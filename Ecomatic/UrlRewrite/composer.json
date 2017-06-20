@@ -1,0 +1,25 @@
+{
+    "name": "ecomatic/module-urlrewrite",
+    "description": "Endpoint for Managing product url rewrites",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "Henrik L\u00f6fstr\u00f6m",
+            "email": "henrik.lofstrom@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ecomatic\\UrlRewrite\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
